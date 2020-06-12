@@ -20,7 +20,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="120"/>
                                 <state key="normal" title="🛎"/>
                                 <connections>
-                                    <action selector="bellButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nWt-uX-xbV"/>
+                                    <action selector="bellButtonTapped:" destination="BYZ-38-t0r" eventType="touchDown" id="NRE-u9-ucu"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get the bell on!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t52-6G-Pwc">
