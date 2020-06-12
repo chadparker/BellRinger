@@ -18,7 +18,7 @@ class AudioPlayer {
    }
    
    @objc private func playBellSound() {
-      let path = Bundle.main.path(forResource: "singlebell.wav", ofType:nil)!
+      let path = Bundle.main.path(forResource: "bell.wav", ofType:nil)!
       let url = URL(fileURLWithPath: path)
 
       do {
