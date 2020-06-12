@@ -10,11 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-   override func viewDidLoad() {
-      super.viewDidLoad()
-      // Do any additional setup after loading the view.
+   @IBOutlet weak var bellButton: UIButton!
+   
+   let audioPlayer = AudioPlayer()
+   
+   @IBAction func bellButtonTapped(_ sender: Any) {
+      NotificationCenter.default.post(name: .bellRung, object: self)
    }
-
-
 }
-
